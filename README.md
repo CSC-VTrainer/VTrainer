@@ -8,3 +8,8 @@ suggest the most suitable sets of exercises.
 VTrainer will have a light version for individual use 
 and a version for business (fitness clubs, yoga centers, sports organizations). 
 We also plan to use it in professional sports.
+
+List of project participants:
+Alexander Karavaev
+Roman Chulkov
+Vladlena Ermak

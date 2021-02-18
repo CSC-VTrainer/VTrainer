@@ -11,6 +11,7 @@ We also plan to use it in professional sports.
 
 <details>
 	<summary> List of project participants: </summary>
+	
 	* Alexander Karavaev
 	* Roman Chulkov
 	* Vladlena Ermak

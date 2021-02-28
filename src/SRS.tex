@@ -2,9 +2,76 @@
 
 \begin{document}
 
+\begin{titlepage}
+
+\end{titlepage}
+
 \section{Introduction}
-TBD
+\subsection{Purpose}
+The purpose of this document is to propose buddy app, that will help users to detect their body errors while doing exercises.
+
+\subsection{Document convention}
+This document used following conventions
+\begin{table}[h!]
+	\begin{tabular}{|l|l|}
+	\hline
+	API & application programming interface  \\ \hline
+	RPS & requests per second \\ \hline
+
+	\end{tabular}
+	\end{table}
+
+\subsection{Intended audience and reading suggestions}
+This project is for people, who want to exerise and their homes or in other places where proffessional gym trainer is absent.
+
+\subsection{Project scope}
+Project will include developing of mobile app, corresponding web services and graphical design for convenient user experience.
+
+\subsection{References}
+IEEE. IEEE Std 830–1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.
+
 \section{Overall Description}
+\subsection{Product perspective}
+Product will be a mobile app, that will analyze live and recorded video feed from smartphone's camera and detect errors in exercising. On the video errors in limbs trajectories will be highlighted and later compared with proper exercise movement. 
+
+\subsection{Product features}
+
+\begin{itemize}
+	\item Error Notification
+	\item Instructional Video
+	\item Individual Training Program
+	\item Achievement System
+	\item External Services Integration
+	\item Customer Support
+\end{itemize}
+\subsection{User class and characteristics}
+User classes are the following
+\begin{itemize}
+	\item People who regularly and consistently exercise. Their will use almost all features of the app, including deep statistics
+	\item Regular people, who exercise from time to time and don't strictly do the gym programm. This class will mostly use only video instructions and look for errors in analyzed video. 
+\end{itemize}
+
+\subsection{Operating environment}
+Software will operate on iOS 13+ and Android 7+.
+
+\subsection{Design and implementation constraints}
+Issues that will affect the product are
+\begin{itemize}
+	\item Regulatory policy about data, since video of the user will be analyzed.
+	\item Hardware limitations of the phone will results in need of very optimized software. 
+	\item GPU should be used, when it's possible to speed up the video analyze.
+	\item All traffic about users statistics should be secure and ciphered. 
+\end{itemize}
+
+\subsection{User documentation}
+
+Documentation will include: text manual, video tutorials in app, customer support.
+
+\subsection{Assumptions and dependencies}
+Issues can aries in legal policies.
+
+Dependencies will consist of open-source third-party software libraries, which licenses are OK to use in commercial use.
+
 TBD
 \input{__generated_requirements}
 

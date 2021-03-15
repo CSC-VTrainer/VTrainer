@@ -1,0 +1,9 @@
+@startuml
+User -> (check the correctness of physical exercise)
+User --> (watch tutorial videos)
+User --> (get integration with social networks)
+User --> (get an individual training program)
+(get an individual training program) ..> (enter physical parameters) : include
+User --> (have a system of achievements and statistics)
+User --> (have access to in-app support)
+@enduml
